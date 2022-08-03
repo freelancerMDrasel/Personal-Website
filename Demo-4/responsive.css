@@ -1,0 +1,18 @@
+@media (max-width:575px){
+    .home-r ul li a{
+        margin-top: 5px;
+        padding: 0px 15px;
+        margin-left: 2px;
+        font-size: 20px;
+        
+    }
+    .home-r ul{
+        text-align: center;
+    }
+    .home-r ul li ul{
+        top: 200%;
+    }
+    .home-r li:nth-child(3) ul{
+    top: 100%;
+   }
+}

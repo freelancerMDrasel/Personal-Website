@@ -1,0 +1,95 @@
+.baner{
+    background-color: rgb(13, 95, 95);
+    margin-top: -10px;
+    height: 600px;
+}
+.baner b{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    letter-spacing: 5px;
+    word-spacing: 20px;
+    color: rgb(194, 168, 21);
+    text-shadow: 1px 2px black;
+    margin-left: 300px;
+}
+.baner img{
+    margin-top: -50px;
+}
+.a{
+    border-left: 10px solid red;
+    border-right: 10px solid gold;
+    border-top: 5px solid green;
+    border-radius: 50%;
+    height: 300px;
+    width: 380px;
+    margin-left: -50px;
+}
+.a b{
+    display: block;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 2px rgb(0, 0, 0);
+    font-size: 50px;
+}
+.baner h3{
+    display: block;
+    margin-left: 3pc;
+    font-size: 40px;
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+}
+.baner h5{
+    display: block;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5pc;
+    margin-top: 20px;
+}
+.baner ol li a{
+    display: inline-block;
+    text-align: left;
+    color: rgb(211, 29, 29);
+    margin-top: 20px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 2px black;
+}
+.baner ol{
+    display: block;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.baner ol li{
+    color: aliceblue;
+    font-size: 35px;
+}
+.b img{
+    height: 250px;
+    width: 300px;
+    border-radius: 50%;
+    display: block;
+    margin-left: 32pc;
+    margin-top: -8pc;
+}
+.baner span i{
+    font-size: 60px;
+    color: rgb(206, 239, 15);
+    margin-top: -5pc;
+    display: block;
+}
+.baner strong{
+    display: block;
+    margin-left: 7pc;
+    margin-top: -50px;
+    font-size: 25px;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.baner{}
+.baner{}

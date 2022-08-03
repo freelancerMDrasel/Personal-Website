@@ -1,0 +1,572 @@
+.home-r ul{
+  margin-top: 20px;
+ }
+ .home-r ul li{
+     display: inline-block;
+     position: relative;
+ }
+ .home-r ul li a{
+     display: block;
+     font-size: 25px;
+     text-decoration: none;
+     color: rgb(28, 5, 112);
+     padding: 0px 30px;
+     font-family: 'Times New Roman', Times, serif;
+     border-right: 1px solid rgb(0, 0, 0);
+     background-color: aqua;
+     margin-left: -4px;
+     
+ }
+ .home-r ul li a:hover{
+     color: rgb(255, 8, 8);
+ }
+ .home-r ul li ul{
+     position: absolute;
+     top: 90%;
+     right: 0;
+     width: 200px;
+     display: block;
+     margin-left: 0;
+     transition: .5s;
+     opacity: 0;
+     visibility: hidden;
+     transform: scaleY(0);
+     transform-origin: top center;
+     margin-top: 4px;
+ }
+ .home-r ul li ul li{
+     display: block;
+     border: none;
+ }
+ .home-r ul li ul li a{
+     display: block;
+     border: none;
+     margin-top: 0px;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 20px;
+     border-bottom: 1px solid black;
+     text-align: center;
+     background-color: aquamarine;
+     border-radius: 5px;
+ }
+ .home-r ul li:hover ul{
+     opacity: 1;
+     visibility: visible;
+     transform: scaleY(1);
+ }
+ .home-r img{
+     height: 70px;
+     width: 200px;
+     display: block;
+     margin-left: 40px;
+ }
+ .home-r b{
+     font-size: 70px;
+     display: block;
+     text-align: center;
+     margin-top: 5px;
+     margin-bottom: 40px;
+     transition: .4s;
+ }
+ .home-r b:hover{
+     color: green;
+     font-size: 75px;
+     letter-spacing: 5px;
+ }
+ .header{
+  margin-top: 150px;
+ }
+.header button{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    border: none;
+    margin-top: 15px;
+}
+.header button:hover{
+  color: red;
+  
+}
+.header ul li a{
+  color: rgb(0, 0, 0);
+  background-color: floralwhite;
+  transition: .4s;
+  width: 250px;
+}
+.header ul li a:hover{
+  color: rgb(159, 8, 8);
+  letter-spacing: 2px;
+}
+.a{
+  display: flex;
+  flex-wrap: 1;
+
+}
+.flex-item1{
+  padding: 10px;
+}
+.flex-item1 a i{
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px;
+  color: black;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.flex-item1 h2 i{
+  margin-top: 10px;
+  font-size: 40px;
+  color: red;
+}
+.header h6 a{
+  color: rgb(255, 255, 255);
+  background-color: brown;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-top: 5px;
+  display: block;
+  border-radius: 5px;
+  transition: .5s;
+}
+.header h6 a:hover{
+  background-color: black;
+}
+.bg-img{
+  background-image: url(https://templates.envytheme.com/finix/default/assets/img/main-banner2.jpg);
+  height: 800px;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-img h6{
+  margin-top: 200px;
+  color: red;
+  margin-right: 20px;
+}
+.bg-img h1{
+  font-size: 70px;
+  color: rgb(0, 0, 0);
+}
+.bg-img p{
+  font-size: 23px;
+  margin-top: 20px;
+}
+.bg-img a p{
+  color: aliceblue;
+  background-color: rgb(150, 12, 12);
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 45px;
+  border-radius: 5px;
+  transition: .5s;
+  font-size: 15px;
+}
+.bg-img a p:hover{
+  background-color: black;
+}
+.felx-item2{
+  display: flex;
+  flex-wrap: 1;
+  align-items: center;
+  margin-top: 150px;
+}
+.b ul{
+  margin-right: 30px;
+  display: block;
+}
+.b ul li{
+  display: inline-block;
+  
+}
+.b ul li a{
+  color: black;
+  text-decoration: none;
+  margin-top: 25px;
+  margin-right: 20px;
+  display: block;
+  transition: .5s;
+  font-size: 25px;
+}
+.b ul li a:hover{
+  color: red;
+}
+.body-1{
+  margin-top: 100px;
+  
+}
+.body-1 h6{
+  color: red;
+  font-size: 20px;
+}
+.body-1 h2{
+  color: rgb(0, 0, 0);
+  margin-top: 20px;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.body-1 i{
+  color: red;
+  margin-right: 20px;
+  font-size: 20px;
+}
+.body-1 h5{
+  margin-bottom: 30px;
+}
+.c{
+  border: 2px solid red;
+  display: inline-block;
+  padding: 30px;
+  
+  border-radius: 50%;
+  margin-bottom: 100px;
+  margin-left: 200px;
+}
+.main{
+  text-align: center;
+  margin-top: -100px;
+  
+}
+.c h4{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+.c b{
+  text-align: center;
+  font-size: 60px;
+  color: red;
+}
+.body-1 h3{
+  color: aliceblue;
+  background-color: red;
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 30px;
+  border-radius: 5px;
+  transition: .5s;
+}
+.body-1 h3:hover{
+  background-color: black;
+}
+.body-2 h6{
+  color: red;
+  font-size: 18px;
+}
+.body-2 b{
+  font-size: 40px;
+}
+.body-2 h3{
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.d{
+  height: 200px;
+  width: auto;
+  background-color: rgb(255, 255, 255);
+  margin-top: 100px;
+  transition: .5s;
+}
+.d:hover{
+  background-color: aliceblue;
+  margin-top: 85px;
+}
+.body-3 h6{
+  color: red;
+  font-size: 20px;
+}
+.body-3 b{
+  font-size: 50px;
+}
+.body-3 p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.body-3{
+  margin-top: 50px;
+}
+.flex ul{
+  display: flex;
+  margin-top: 50px;
+}
+.flex ul li{
+  list-style: none;
+  padding: 20px;
+}
+.about-list{
+  margin-top: 50px;
+ 
+ 
+}
+.about-list b{
+  font-size: 25px;
+  margin-top: 15px;
+ display: inline-block;
+
+ 
+}
+.about-list i{
+  margin-right: 40px;
+  font-size: 20px;
+  color: red;
+  border: 1px solid red;
+  padding: 15px;
+  border-radius: 50%;
+  
+}
+.about-list p{
+  margin-top: 0px;
+  margin-left: 60px;
+  padding: 0px 15px;
+}
+.about-list button{
+  color: aliceblue;
+  background-color: red;
+  padding: 10px 40px;
+}
+.about-list2 b{
+  font-size: 40px;
+  text-align: center;
+  display: block;
+}
+.about-list2 h6{
+  text-align: center;
+}
+.about-text h2{
+  color: aliceblue;
+  font-size: 40px;
+  border-right: 1px solid #fff;
+}
+.about-text{
+  margin-top: 50px;
+}
+.about-text b{
+  margin-top: 45px;
+  color: aliceblue;
+  font-size: 30px;
+}
+.about-text h4{
+  color: rgb(219, 6, 6);
+  font-size: 40px;
+  margin-top: 40px;
+  margin-right: 30px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 50%;
+ 
+}
+.service{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  
+}
+.service b{
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+ 
+}
+.service h2{
+  margin-bottom: 60px;
+  color: black;
+  font-size: 40px;
+}
+.service i{
+  color: red;
+  margin-right: 30px;
+}
+.service p{
+  margin-left: 40px;
+  display: block;
+}
+.service img{
+  margin-top: 100px;
+}
+.f a i{
+  color: rgb(183, 171, 171);
+  font-size: 40px;
+  text-align: center;
+  display: block;
+  margin-top: 50px;
+  margin-right: 30px;
+  text-decoration: none;
+  
+}
+.f a h3{
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  margin-right: 50px;
+  text-decoration: none;
+  margin-top: 30px;
+}
+.e{
+  display: flex;
+  
+}
+.f a{
+  text-decoration: none;
+}
+.f a i:hover{
+  color: red;
+}
+.carosel{
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+.body-img ul{
+  position: relative;
+}
+.body-img ul li{
+  display: inline-block;
+}
+.body-img ul li img{
+  width: 260px;
+  padding: 0px 15px;
+}
+
+.body-img ul li ul{
+  position: absolute;
+  bottom: 0;
+  left: 10;
+  opacity: 0;
+  visibility: hidden;
+  margin-left: 0;
+  transform: scaley(0);
+  transform-origin: top center;
+  transition: .5s;
+}
+.body-img ul li ul li{
+  display: inline-block;
+}
+.body-img ul li ul li i{
+  display: block;
+  padding: 0px 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 10px 10px;
+  transition: .5s;
+  color: black;
+  font-size: 20px;
+}
+.body-img ul li:hover ul{
+  opacity: 1;
+  visibility: visible;
+  transform: scaley(1);
+  margin-bottom: 40px;
+}
+.body-img ul li ul li i:hover{
+  background-color: red;
+  color: black;
+}
+.about-img h5{
+  font-size: 18px;
+  color: red;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.about-img strong a{
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+  transition: .5s;
+  
+}
+.about-img strong a:hover{
+  color: red;
+  letter-spacing: normal;
+}
+.about-img a{
+  color: black;
+  text-decoration: none;
+  margin-top: px;
+  display: block;
+  transition: .5s;
+}
+.about-img a:hover{
+  color: red;
+  letter-spacing: 2px;
+}
+.futer{
+  margin-top: 50px;
+}
+.futer ul li b{
+  color: #fff;
+  font-size: 20px;
+  display: inline-block;
+  margin-left: -40px;
+}
+.futer ul{
+  text-align: left;
+}
+.futer ul li{
+  display: inline-block;
+}
+.futer ul li a i{
+  color: rgb(255, 251, 251);
+  padding: 10px 5px;
+  font-size: 20px;
+  transition: .5s;
+}
+.futer ul li a i:hover{
+  color: red;
+}
+.futer p{
+  color: #fff;
+  margin-top: 30px;
+  
+}
+.futer b{
+  color: #fff;
+  font-size: 20px;
+  margin-left: 25px;
+}
+.futer ol li a{
+  text-decoration: none;
+  color: rgb(249, 247, 247);
+  padding: 10px 0px;
+  list-style: none;
+  display: block;
+  transition: .5s;
+  font-size: 20px;
+}
+.futer ol li{
+  list-style: none;
+}
+.futer ol li a:hover{
+  color: red;
+  letter-spacing: 1px;
+}
+.futer hr{
+
+  color: #fff;
+}
+.y{
+  color: #fff;
+  padding: 0px 5px;
+}
+.x{
+  display: flex;
+ margin-top: 10px;
+}
+.y a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  padding: 0px 10px;
+  transition: .5s;
+}
+.y a:hover{
+  color: red;
+}
+.y h6{
+  font-size: 17px;
+  padding: 0px 10px;
+}
+.y i{
+  font-size: 19px;
+  margin-top: 10px;
+}

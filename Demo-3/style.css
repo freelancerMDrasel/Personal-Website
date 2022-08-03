@@ -1,0 +1,417 @@
+.header ul{
+    text-align: left;
+    margin-top: 20px;
+    position: relative;
+}
+.header ul li{
+    display: inline-block;
+}
+.header ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 18px;
+    transition: .5s;
+}
+.header ul li a:hover{
+    color: red;
+}
+.header ul li ul{
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 200px;
+    display: block;
+    
+    margin-left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+    transform: scaleY(0);
+    transform-origin: bottom center;
+}
+.header ul li ul li{
+    display: block;
+}
+.header ul li ul li a{
+    display: block;
+    background-color: rgb(248, 252, 255);
+    margin-top: -10px;
+    font-size: 15px;
+}
+.header ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1);
+}
+.header ul li ul li a:hover{
+    color: red;
+    letter-spacing: 2px;
+}
+.b i{
+    font-size: 35px;
+    color: red;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.b h3{
+    font-size: 20px;
+    color: black;
+    margin-top: 0px; 
+    margin-left: 20px;
+}
+.b strong{
+    color: rgb(108, 108, 108);
+    margin-top: 10px;
+    display: block;
+    margin-left: 20px;
+}
+.b h4 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(254, 250, 250);
+    margin-top: 10px;
+    display: block;
+    background-color: red;
+    padding: 10px 30px;
+    border-radius: 5px;
+    transition: .5s;
+}
+.b h4{
+    margin-left: 40px;
+    margin-top: 15px;
+    display: block;
+}
+.b h4 a:hover{
+    background-color: black;
+}
+.baner{
+    background-image: url(https://templates.envytheme.com/finix/default/assets/img/main-banner.jpg);
+    height: 900px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.baner h6{
+   margin-top: 180px;
+   font-size: 20px;
+   color: rgb(0, 0, 0);
+}
+.baner b{
+    font-size: 60px;
+}
+.baner p{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.baner a{
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 40px;
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition: .5s;
+    margin-bottom: 180px;
+}
+.baner a:hover{
+    background-color: black;
+}
+hr{
+    color: black;
+}
+.baner ul li{
+    display: inline-block;
+    margin-top: 10px;
+}
+.baner ul li i{
+    font-size: 40px;
+    color: red;
+    padding: 0px 20px 0px 0px;
+    display: inline-block;
+}
+.baner ul li h5{
+    margin-top: 5px;
+    color: black;
+    font-size: 18px;
+    
+}
+.baner ul{
+    border-right: 1px solid black;
+}
+.main{
+    width: 100%;
+    height: 300px;
+    padding: 0px;
+}
+.c{
+    height: 300px;
+    width: 490px;
+    
+    position: relative;
+}
+.d{
+    height: 300px;
+    width: 300px;
+    
+    position: relative;
+    bottom: 150px;
+    left: 200px;
+    
+}
+.e{
+    height: 170px;
+    width: 490px;
+    background-color: rgb(253, 251, 251);
+    position: relative;
+    bottom:300px;
+    left: 100px;
+    padding: 20px;
+    border-left: 3px solid red;
+}
+.e ul li{
+    display: inline-block;
+}
+.e b{
+    font-size: 70px;
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+.e h4{
+    display: block;
+    margin-left: 150px;
+    margin-top: -85px;
+    font-size: 30px;
+}
+.about-1{
+    margin-top: 100px;
+}
+.about-1 small{
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    display: block;
+}
+.about-1 p{
+    margin-top: 20px;
+    font-size: 17px;
+}
+.about-1 strong{
+    color: rgb(56, 55, 55);
+    font-size: 20px;
+    margin-top: 15px;
+}
+.about-1 ul{
+    margin-top: 20px;
+}
+.about-1 ul li{
+    list-style: none;
+    font-size: 18px;
+   margin-left: -50px;
+    display: block;
+}
+.about-1 ul li i{
+    padding: 0px 15px;
+    color: red;
+    font-size: 20px;
+}
+.about-1 a{
+   text-decoration: none;
+   color: aliceblue;
+   background-color: red;
+   display: inline-block;
+   padding: 10px 30px;
+   margin-top: 10px;
+   font-size: 20px;
+   border-radius: 5px;
+   transition: .5s;
+}
+.about-1 a:hover{
+   background-color: black;
+}
+.text{
+    margin-top: 100px;
+}
+.text small{
+    color: red;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+}
+.text b{
+    display: block;
+    font-size: 45px;
+    margin-top: -15px;
+   text-align: center;
+}
+.text p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.abour-2 h3{
+    text-align: center;
+    color: black;
+}
+.abour-2 p{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 17px;
+}
+.abour-2{
+    margin-top: 200px;
+    text-align: center;
+}
+.f{
+    transition: .5s;
+}
+.f:hover{
+    margin-top: -20px;
+}
+.abour-2 i{
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+    color: red;
+    margin-bottom: 30px;
+    border: 2px solid green;
+    border-radius: 50%;
+    padding: 20px;
+}
+.about-3{
+    margin-top: 100px;
+}
+.about-3 b{
+    display: block;
+    font-size: 40px;
+}
+.about-3 img{
+    height: 600px;
+}
+.about-3 h3{
+    margin-left: 70px;
+    display: block;
+    margin-top: -65px;
+    font-size: 35px;
+}
+.about-3 p{
+    margin-left: 70px;
+    display: block;
+    font-size: 17px;
+    
+}
+.about-3 span i{
+    display: block;
+    margin-top: 40px;
+    font-size: 50px;
+    color: rgb(156, 54, 68);
+}
+.g{
+    height: 400px;
+    width: auto;
+    background-color: rgb(248, 248, 248);
+    text-align: center;
+}
+.banner-1{
+    margin-top: 30px;
+}
+.h{
+    height: 100px;
+    width: auto;
+    background-color: rgb(248, 210, 210);
+    border-radius: 0px 0px 200px 200px;
+    transition: .5s;
+}
+.g:hover .h{
+    background-color: rgb(249, 36, 3);
+    margin-top: -20px;
+}
+.g i{
+    display: inline-block;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(137, 6, 6);
+    margin-top: -65px;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+.banner-1 strong{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.banner-1 p{
+    margin-top: 20px;
+}
+.banner-1 a{
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+}
+.banner-2 a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    transition: .5s;
+}
+.banner-2 a:hover{
+    color: red;
+}
+.about-4 h6{
+    color: red;
+    display: block;
+    margin-left: 140px;
+    margin-top: -100px;
+}
+.about-4 small{
+    margin-left: 140px;
+    margin-top: -20px;
+    display: block;
+}
+.about-4 p{
+    margin-top: 50px;
+    display: block;
+    font-size: 20px;
+}
+.about-4{
+    margin-top: 50px;
+}
+.about-4 img{
+    border-radius: 50%;
+}
+.banner-3 h6{
+    font-size: 20px;
+    display: block;
+    color: red;
+    margin-top: 20px;
+}
+.banner-3 b{
+    display: block;
+    font-size: 25px;
+    transition: .5s;
+}
+.banner-3 b:hover{
+    color: red;
+}
+.banner-3 a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    transition: .5s;
+}
+.banner-3 a:hover{
+    color: red;
+    letter-spacing: 2px;
+}

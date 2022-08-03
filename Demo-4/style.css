@@ -1,0 +1,446 @@
+.home-r ul{
+    margin-top: 20px;
+   }
+   .home-r ul li{
+       display: inline-block;
+       position: relative;
+   }
+   .home-r ul li a{
+       display: block;
+       font-size: 25px;
+       text-decoration: none;
+       color: rgb(28, 5, 112);
+       padding: 0px 30px;
+       font-family: 'Times New Roman', Times, serif;
+       border-right: 1px solid rgb(0, 0, 0);
+       background-color: aqua;
+       margin-left: -4px;
+       
+   }
+   .home-r ul li a:hover{
+       color: rgb(255, 8, 8);
+   }
+   .home-r ul li ul{
+       position: absolute;
+       top: 90%;
+       right: 0;
+       width: 200px;
+       display: block;
+       margin-left: 0;
+       transition: .5s;
+       opacity: 0;
+       visibility: hidden;
+       transform: scaleY(0);
+       transform-origin: top center;
+       margin-top: 4px;
+   }
+   .home-r ul li ul li{
+       display: block;
+       border: none;
+   }
+   .home-r ul li ul li a{
+       display: block;
+       border: none;
+       margin-top: 0px;
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 20px;
+       border-bottom: 1px solid black;
+       text-align: center;
+       background-color: aquamarine;
+       border-radius: 5px;
+   }
+   .home-r ul li:hover ul{
+       opacity: 1;
+       visibility: visible;
+       transform: scaleY(1);
+   }
+   .home-r img{
+       height: 70px;
+       width: 200px;
+       display: block;
+       margin-left: 40px;
+   }
+.a img{
+    height: 50px;
+    width: 50px;
+    margin-left: -20px;
+    margin-top: 10px;
+}
+
+.b{
+    background-image: url(https://mobirise.com/extensions/appamp/assets/images/mbr-10.jpg);
+    height: 550px;
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.b p{
+    font-size: 30px;
+    color: aliceblue;
+    padding: 60px;
+    
+}
+.b h1{
+    font-size: 50px;
+    color: aliceblue;
+    margin-top: -50px;
+} 
+.b h2{
+    font-size: 20px;
+    background-color: aliceblue;
+    display: inline-block;
+    padding: 20px 30px;
+    height: 65px;
+    width: 300px;
+    margin-right: 50px;
+    margin-top: 70px;
+    border-radius: 5px;
+} 
+.b h3{
+    border: 1px solid #fff;
+    display: inline-block;
+    background-color: green;
+    color: #fff;
+    padding: 15px 100px;
+    margin-right: 250px;
+    margin-top: -15px;
+    border-radius: 5px;
+    transition: .5s;
+} 
+.b h3:hover{
+    background-color: #fff;
+    color: rgb(14, 14, 194);
+    border: 2px solid rgb(6, 6, 211);
+}
+.c h1{
+    font-size: 60px;
+    text-align: center;
+    padding: 30px;
+}
+.c{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.c h3{
+    text-align: center;
+    margin-top: -25px;
+}
+.d{
+    margin-top: 70px;
+    background-color: rgb(167, 167, 167);
+    padding: 50px;
+
+}
+.e img{
+    height: 500px;
+    width: 350px;
+    
+}
+.e h1{
+    margin-top: 100px;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+.e p{
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.f{
+    margin-top: 100px;
+}
+.f h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+.f h3{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(175, 175, 175);
+    margin-top: 25px;
+}
+.g img{
+    height: 250px;
+    width: 150px;
+    margin-left: -80px;
+}
+.g h1{
+    font-size: 20px;
+    margin-left: -100px;
+    margin-top: 50px;
+}
+.g p{
+    margin-left: -100px;
+    margin-top: 20px;
+}
+.h img{
+    height: 250px;
+    width: 150px;
+    margin-left: -40px;
+}
+.h h1{
+    font-size: 20px;
+    margin-left: -50px;
+    margin-top: 50px;
+}
+.h p{
+    margin-left: -50px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.i img{
+    height: 250px;
+    width: 150px;
+    margin-left: -10px;
+}
+.i h1{
+    font-size: 20px;
+    margin-left: -30px;
+    margin-top: 50px;
+}
+.i p{
+    margin-left: -30px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.g{
+    margin-top: 100px;
+}
+.h{
+    margin-top: 100px;
+}
+.i{
+    margin-top: 100px;
+}
+.j img{
+    height: 300px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: -100px;
+}
+.k img{
+    height: 300px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: -20px;
+}
+.l img{
+    height: 300px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.m h2{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+.m p{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(101, 101, 101);
+    margin-bottom: 80px;
+}
+.n h1{
+    font-size: 50px;
+}
+.n p{
+    font-size: 25px;
+}
+.n ol{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.n ol li{
+    margin-top: 20px;
+    color: rgb(128, 128, 128);
+}
+.n{
+    height: 800px;
+    width: 400px;
+    background-color: rgb(231, 231, 231);
+    padding: 100px 50px;
+}
+.n h3{
+    background-color: #fff;
+    color: rgb(14, 63, 169);
+    display: inline-block;
+    padding: 20px 30px;
+    border-radius: 5px;
+    margin-top: 70px;
+    transition: .5s;
+}
+.n h3:hover{
+    background-color: black;
+    color: #fff;
+}
+.n:hover > h3{
+    background-color: rgb(18, 77, 172);
+    color: #fff;
+}
+.o{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(185, 185, 185);
+    margin-top: 100px;
+}
+.o h4{
+    text-align: center;
+    padding-top: 50px;
+}
+.o h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+}
+.o p{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+}
+.p img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.p{
+    text-align: center;
+    margin-top: 50px;
+}
+.q h1{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+.r img{
+      border-radius: 50%;
+      margin-top: 50px;
+}
+.s{
+    height: 450px;
+    width: 100%;
+    background-color: rgb(181, 178, 178);
+    padding: 50px;
+    margin-top: -50px;
+}
+.s h3{
+    margin-top: 20px;
+}
+.s p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.s h4{
+    margin-top: 20px;
+    background-color: rgb(255, 253, 253);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: .5s;
+}
+.s h4:hover{
+    background-color: black;
+    color: #fff;
+}
+.t{
+    margin-top: 100px;
+    background-color: rgb(203, 202, 201);
+    padding-bottom: 50px;
+}
+.t p{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+}
+.t h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.u{
+    height: 850px;
+    width: 800px;
+    background-color: rgb(176, 176, 176);
+    margin-left: 300px;
+    margin-top: 50px;
+    padding: 50px;
+}
+.u h3{
+    text-align: center;
+}
+.u h1{
+    padding: 20px;
+    margin-top: 10px;
+}
+.v h3{
+    background-color: green;
+    color: #fff;
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 5px;
+    transition: .5s;
+}
+.v{
+    text-align: center;
+}
+.v h3:hover{
+    background-color: #fff;
+    color: green;
+    border: 2px solid green;
+}
+.w{
+    margin-top: 100px;
+}
+.w h4{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(181, 179, 179);
+}
+.w h1{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.w ul{
+    text-align: center;
+}
+.w ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.w ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    background-color: #fff;
+    padding: 10px 25px;
+    border: 1px solid green;
+    margin-left: 20px;
+    color: green;
+    border-radius: 5px;
+}
+.w ul li a:hover{
+    background-color: black;
+    color: #fff;
+}
+.x img{
+    margin-top: 100px;
+    height: 550px;
+    width: 550px;
+}
+.x{
+    text-align: center;
+}
+.y{
+    background-color: rgb(172, 172, 172);
+    padding: 50px;
+}
+.y p{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}

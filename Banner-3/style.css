@@ -1,0 +1,53 @@
+.a b{
+    font-size: 60px;
+    color: rgb(1, 167, 243);
+    padding-top: 100px;
+}
+.a{
+    padding-top: 150px;
+    
+}
+.a p{
+    font-size: 30px;
+}
+.c{
+    height: 380px;
+    width: 450px;
+    background-color: rgb(224, 213, 218);
+    margin-top: 100px;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+.c h1{
+    margin-top: 15px;
+    padding-top: 15px;
+    border-radius: 15px;
+    font-size: 30px;
+    margin-bottom: 25px;
+
+}
+.c b{
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+    background-color: rgb(1, 167, 243);
+    padding: 5px 150px;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+.c ul{}
+.c ul li{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.d b{
+    text-align: center;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: rgb(58, 205, 14);
+    padding: 10px 15px;
+    border-radius: 7px;
+}

@@ -1,0 +1,62 @@
+.baner{
+   background-color: rgb(12, 77, 77);
+   margin-top: -40px;padding: 0px 0px 50px 0px;
+}
+.baner b{
+    display: block;
+    font-size: 60px;
+    color: orange;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 2px black;
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+.baner strong{
+    display: block;
+    text-align: center;
+    color: rgb(237, 0, 0);
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    margin-top: 15px;
+    margin-left: -600px;
+}
+.baner img{
+    height: 470px;
+    width: 800px;
+    margin-top: -70px;
+    
+}
+.baner h3{
+    margin-top: 20px;
+    font-size: 25px;
+    text-decoration: underline;
+    color: green;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.baner ul{
+    margin-top: 20px;
+} 
+.baner ul li{
+    list-style: none;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif-;
+    color: aliceblue;
+}
+.baner ul li i{
+    padding: 0px 20px;
+    color: rgb(182, 168, 22);
+    font-size: 20px;
+}
+.baner span{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+.baner h6{
+    margin-left: 70px;
+    margin-top: -60px;
+    font-size: 25px;
+    color: aliceblue;
+}

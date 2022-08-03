@@ -1,0 +1,348 @@
+.home-r ul{
+    margin-top: 20px;
+   }
+   .home-r ul li{
+       display: inline-block;
+       position: relative;
+   }
+   .home-r ul li a{
+       display: block;
+       font-size: 25px;
+       text-decoration: none;
+       color: rgb(28, 5, 112);
+       padding: 0px 30px;
+       font-family: 'Times New Roman', Times, serif;
+       border-right: 1px solid rgb(0, 0, 0);
+       background-color: aqua;
+       margin-left: -4px;
+       
+   }
+   .home-r ul li a:hover{
+       color: rgb(255, 8, 8);
+   }
+   .home-r ul li ul{
+       position: absolute;
+       top: 90%;
+       right: 0;
+       width: 200px;
+       display: block;
+       margin-left: 0;
+       transition: .5s;
+       opacity: 0;
+       visibility: hidden;
+       transform: scaleY(0);
+       transform-origin: top center;
+       margin-top: 4px;
+   }
+   .home-r ul li ul li{
+       display: block;
+       border: none;
+   }
+   .home-r ul li ul li a{
+       display: block;
+       border: none;
+       margin-top: 0px;
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 20px;
+       border-bottom: 1px solid black;
+       text-align: center;
+       background-color: aquamarine;
+       border-radius: 5px;
+   }
+   .home-r ul li:hover ul{
+       opacity: 1;
+       visibility: visible;
+       transform: scaleY(1);
+   }
+   .home-r img{
+       height: 70px;
+       width: 200px;
+       display: block;
+       margin-left: 40px;
+   } 
+.header img{
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+}
+.header h1{
+    float: right;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-right: 100px;
+    transition: .5s;
+}
+.header h1:hover{
+    color: rgb(170, 168, 168);
+}
+.header button{
+    padding: 10px 40px;
+    margin-top: 20px;
+}
+.manu button{
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    transition: .5s;
+}
+.manu button:hover{
+    color: green;
+}
+.manu ul li a{
+    background-color: rgb(245, 249, 249);
+    transition: .5s;
+    font-size: 20px;
+    
+}
+.manu ul li a:hover{
+    color: green;
+    
+}
+.bg-img{
+    background-image: url(https://mobirise.com/extensions/appamp/assets/images/mbr-4.jpg);
+    height: 500px;
+    width: auto;
+    background-position: center;
+}
+.bg-img h5{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 150px;
+    font-size: 30px;
+}
+.bg-img b{
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+    display: block;
+}
+.bg-img ul{
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+}
+.bg-img ul li{
+    display: inline-block;
+    padding: 0px 20px
+}
+.bg-img ul li a{
+    text-align: center;
+    color: rgb(56, 57, 57);
+    text-decoration: none;
+    background-color: aliceblue;
+    padding: 15px 30px;
+    font-size: 25px;
+    border-radius: 5px;
+    transition: .5s;
+}
+.bg-img ul li a i{
+    margin-right: 10px;
+}
+.bg-img ul li a:hover{
+    background-color: green;
+    color: aliceblue;
+}
+.about{
+    margin-top: 100px;
+}
+.about img{
+    width: 450px;
+    height: 400px;
+}
+.about h1{
+    font-size: 50px;
+    color: black;
+}
+.about p{
+    font-size: 20px;
+    color: rgb(118, 118, 117);
+    margin-top: 40px;
+}
+.futer{
+    margin-top: 150px;
+    text-align: center;
+}
+.futer b{
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    display: inline-block;
+}
+.futer h4{
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgb(99, 100, 100);
+}
+.futer a{
+    background-color: green;
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 40px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin-right: 200px;
+    transition: .5s;
+}
+.futer a:hover{
+    background-color: aliceblue;
+    color: green;
+    border: 2px solid green;
+}
+ .a{
+    background-color: rgb(248, 248, 248);
+    padding: 10px 60px;
+ }
+ .a ul li h3{
+    display: block;
+    margin-left: -40px;
+    color: black;
+ }
+.a ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+   
+}
+.a ul li i{
+    font-size: 20px;
+    margin-left: -100px;
+    font-size: 30px;
+    color: green;
+}
+.about-1 p{
+    font-size: 20px;
+    color: rgb(166, 167, 167);
+}
+.about-1{
+    margin-top: 80px;
+}
+.service{
+    margin-top: 80px;
+}
+.service h2{
+    font-size: 25px;margin-top: 20px;
+}
+.service b{
+    font-size: 50px;
+    margin-top: 30px;
+    display: block;
+}
+.service p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.b:hover{
+    background-color: green;
+    color: aliceblue;
+}
+.b{
+    padding: 10px 60px 30px 20px;
+    transition: .5s;
+}
+.service span{
+    margin-left: 80px;
+    margin-top: -35px;
+    display: block;
+    font-size: 25px;
+}
+.service ul{
+    margin-left: -30px;
+}
+.service ul li{
+    list-style: none;
+    font-size: 25px;
+    padding: 15px 0px;
+    
+}
+.service ul li i{
+    font-size: 35px;
+    padding: 0px 20px;
+    color: green;
+  
+}
+.service button{
+    margin-left: 40px;
+    font-size: 20px;
+    background-color: rgb(253, 255, 255);
+    color: green;
+    padding: 10px 25px;
+    margin-top: 50px;
+}
+.service button:hover{
+    color: aliceblue;
+    background-color: green;
+}
+.about-2{
+    margin-top: 50px;
+}
+.about-2 img{
+    width: 100%;
+}
+.about-2 h3{
+    margin-top: 40px;
+    color: black;
+    font-size: 30px;
+}
+.about-3{
+    margin-top: 100px;
+}
+.about-3 b{
+    text-align: left;
+    display: block;
+    font-size: 45px;
+    margin-top: 10px;
+}
+.about-3 p{
+    text-align: left;
+    font-size: 20px;
+}
+.about-3 h5{
+    color: black;
+    text-align: left;
+    margin-top: 30px;
+}
+.about-3 img{
+    width: 100%;
+    height: 200px;
+}
+.about-4{
+    margin-top: 80px;
+}
+.about-4 p{
+    font-size: 25px;
+}
+.d img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.d h6{
+    margin-right: 90px;
+    display: inline-block;
+}
+.c h3{
+   color: black;
+   font-size: 25px;
+}
+.contact{
+    margin-top: 100px;
+}
+.contact h3{
+    text-align: left;
+    color: black;
+}
+.contact p{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.contact button{
+    padding: 10px 80px;
+    font-size: 25px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-right: 370px;
+}
+.contact{}

@@ -1,0 +1,412 @@
+.home-r ul{
+ margin-top: 20px;
+}
+.home-r ul li{
+    display: inline-block;
+    position: relative;
+}
+.home-r ul li a{
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(28, 5, 112);
+    padding: 0px 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border-right: 1px solid rgb(0, 0, 0);
+    background-color: aqua;
+    margin-left: -4px;
+    
+}
+.home-r ul li a:hover{
+    color: rgb(255, 8, 8);
+}
+.home-r ul li ul{
+    position: absolute;
+    top: 90%;
+    right: 0;
+    width: 200px;
+    display: block;
+    margin-left: 0;
+    transition: .5s;
+    opacity: 0;
+    visibility: hidden;
+    transform: scaleY(0);
+    transform-origin: top center;
+    margin-top: 4px;
+}
+.home-r ul li ul li{
+    display: block;
+    border: none;
+}
+.home-r ul li ul li a{
+    display: block;
+    border: none;
+    margin-top: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+.home-r ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+.home-r img{
+    height: 70px;
+    width: 200px;
+    display: block;
+    margin-left: 40px;
+}
+.home-r b{
+    font-size: 70px;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    transition: .4s;
+    font-family: 'Times New Roman', Times, serif;
+}
+.home-r b:hover{
+    color: green;
+    font-size: 75px;
+    letter-spacing: 5px;
+}
+.about-websit h3{
+    text-align: left;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.abour-me{
+    margin-top: 100px;
+}
+.abour-me b{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 2px red;
+}
+.abour-me h4{
+    margin-top: 30px;
+    color: red;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+.abour-me img{
+    height: 600px;
+    width: 500px;
+} 
+.abour-me strong{
+    margin-top: 20px;
+    font-size: 20px;
+} 
+.abour-me h5{
+    margin-top: 30px;
+    color: green;
+    text-decoration: underline;
+    margin-bottom: 30px;
+} 
+.abour-me h6{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+} 
+.dropdown-logl ul{
+    position: relative;
+} 
+.dropdown-logl ul li{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+} 
+.dropdown-logl ul li ul{
+    position: absolute;
+    top: 90%;
+    right: 30%;
+    opacity: 0;
+    visibility: hidden;
+    margin-left: 0;
+    transform: scaley(0);
+    transform-origin: top center;
+    transition: .5s;
+    
+}
+.dropdown-logl ul li ul li{
+    display: inline-block;
+}
+.dropdown-logl ul li ul li a{
+    display: block;
+    padding: 0px 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px 10px;
+    transition: .5s;
+    color: black;
+    font-size: 20px;
+    color: red;
+    margin-left: 20px;
+}
+.dropdown-logl li:hover ul{
+    opacity: 1;
+  visibility: visible;
+  transform: scaley(1);
+  margin-bottom: 40px;
+} 
+.dropdown-logl ul li ul li a:hover{
+    background-color: rgb(6, 113, 113);
+    color: rgb(255, 255, 255);
+    
+}
+.contact{
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+} 
+.contact b{
+    display: block;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(6, 150, 150);
+}
+.contact ul{
+    text-align: center;
+    margin-top: 35px;
+}
+.contact  ul li{
+    display: inline-block;
+}
+.contact ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 10px 25px;
+    background-color: rgb(11, 103, 103);
+    border-radius: 5px;
+    color: #fff;
+    transition: .5s;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact hr{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    border: 2px solid rgb(2, 86, 109);
+    text-decoration: underline;
+    margin-top: 50px;
+    box-shadow: 1px 1px black;
+    text-align: center;
+} 
+.contact ul li a:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(2, 86, 109);
+}
+.skill{
+    margin-top: 100px;
+   
+}
+.skill b{
+    display: block;
+    text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+    transition: .5s;
+}
+.skill b:hover{
+    color: green;
+}
+.about-skill ul{
+    text-align: center;
+}
+.about-skill ul li{
+   display: inline-block;
+}
+.about-skill ul li i{
+    font-size: 30px;
+    background-color: green;
+    padding: 20px 12px;
+    border-radius: 20px 0px 20px 0px;
+}
+.about-skill b{
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    color: red;
+    margin-bottom: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.about-skill p{
+    text-align: center;
+    font-size: 15px;
+}
+.about-skill{
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+    height: 500px;
+}
+.html-about{
+    margin-top: 100px;
+}
+.html-about img{
+    height: 300px;
+    width: 400px;
+}
+.html-about strong{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+}
+.css-about{
+    margin-top: 50px;
+}
+.css-about img{
+    height: 300px;
+    width: 400px;
+}
+.css-about strong{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+}
+.bootstrap-about{
+    margin-top: 100px;
+}
+.bootstrap-about img{
+    height: 300px;
+    width: 400px;
+    margin-bottom: 50px;
+}
+.responciv-about{
+    margin-top: 100px;
+}
+.responciv-about img{
+    height: 300px;
+    width: 400px;
+}
+.futter-1{
+    margin-top: 200px;
+}
+.futter-1 b{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    padding: 30px;
+    text-align: left;
+    border-right: 2px solid #fff;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+.futter-1 h2{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    padding: -10px;
+    margin-top: 20px;
+    text-align: center;
+}
+.about b{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    color: red;
+    margin-bottom: 100px;
+    transition: .5s;
+}
+.about b:hover{
+    color: green;
+    letter-spacing: 10px;
+}
+.futer{
+    margin-top: .5px;
+  }
+  .futer ul li b{
+    color: #fff;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: -40px;
+  }
+  .futer ul{
+    text-align: left;
+  }
+  .futer ul li{
+    display: inline-block;
+  }
+  .futer ul li a i{
+    color: rgb(255, 251, 251);
+    padding: 10px 5px;
+    font-size: 20px;
+    transition: .5s;
+  }
+  .futer ul li a i:hover{
+    color: red;
+  }
+  .futer p{
+    color: #fff;
+    margin-top: 30px;
+    
+  }
+  .futer b{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 25px;
+  }
+  .futer ol li a{
+    text-decoration: none;
+    color: rgb(249, 247, 247);
+    padding: 10px 0px;
+    list-style: none;
+    display: block;
+    transition: .5s;
+    font-size: 20px;
+  }
+  .futer ol li{
+    list-style: none;
+  }
+  .futer ol li a:hover{
+    color: red;
+    letter-spacing: 1px;
+  }
+  .futer hr{
+  
+    color: #fff;
+  }
+  .y{
+    color: #fff;
+    padding: 0px 5px;
+  }
+  .x{
+    display: flex;
+   margin-top: 10px;
+  }
+  .y a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    padding: 0px 10px;
+    transition: .5s;
+  }
+  .y a:hover{
+    color: red;
+  }
+  .y h6{
+    font-size: 17px;
+    padding: 0px 10px;
+  }
+  .y i{
+    font-size: 19px;
+    margin-top: 10px;
+  }
+  .futer img{
+    height: 70px;
+    width: 200px;
+  }
